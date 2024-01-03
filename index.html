@@ -6,6 +6,8 @@
     <title>Learning HTML</title>
 </head>
 <body>
+    <!-- heading -->
+
     <h1>This is Heading 1</h1>
     <h2>This is Heading 2</h2>
     <h3>This is Heading 3</h3>
@@ -13,10 +15,14 @@
     <h5>This is Heading 5</h5>
     <h6>This is Heading 6</h6>
 
+    <!-- paragraph -->
+
     <p>
         This is paragraph text. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
     </p>
 
+    <!-- text formatting -->
+    
     <p>This is <b>bold</b> text</p>
     <p>This is <strong>strong</strong> text</p>
 
@@ -33,6 +39,8 @@
 
     <p>This is <mark>marked</mark> text</p>
     <p><code>This is coded text</code></p>
+
+    <!-- table -->
 
     <table>
         <tr>
@@ -57,6 +65,8 @@
         </tr>
     </table>
 
+    <!-- list -->
+
     <ul>
         <li>Orange</li>
         <li>Banana</li>
@@ -68,6 +78,100 @@
         <li>Pencil</li>
         <li>Eraser</li>
     </ol>
+
+    <!-- form -->
+
+    <form action="">
+        <label for="fname">First Name</label> <br>
+        <input type="text" id="fname"> <br><br>
+        
+        <label for="lname">Last Name</label> <br>
+        <input type="text" id="lname"> <br><br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" id="email"> <br><br>
+
+        <label for="phone">Phone no</label> <br>
+        <input type="text" id="phone"> <br><br>
+
+        <label>Gender</label> <br>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label> 
+        <input type="radio" name="gender" id="female"><label for="female">Female</label> <br><br>
+
+        <label for="mobile_operator">Mobile Operator</label> <br>
+        <select id="mobile_operator">
+            <option>Airtel</option>
+            <option>Banglalink</option>
+            <option>Teletalk</option>
+            <option>Grameenphone</option>
+            <option>Robi</option>
+        </select> <br><br>
+
+        <label>Favorite Programming Languages</label> <br>
+        <input type="checkbox" id="cplusplus"><label for="cplusplus">C++</label> <br>
+        <input type="checkbox" id="js"><label for="js">JS</label> <br>
+        <input type="checkbox" id="php"><label for="php">PHP</label> <br>
+        <input type="checkbox" id="python"><label for="python">Python</label> <br>
+        <input type="checkbox" id="java"><label for="java">Java</label> <br>
+        <input type="checkbox" id="csharp"><label for="csharp">C#</label> <br><br>
+
+        <label for="comment">Comment</label> <br>
+        <textarea id="comment" cols="50" rows="10"></textarea> <br><br>
+
+        <input type="button" value="Submit"> <br><br>
+    </form>
+    <br><br>
+
+    <!-- audio -->
+    
+    <audio controls>
+        <source src="https://download.quranicaudio.com/quran/abdullaah_basfar/001.mp3" type="audio/mp3">
+    </audio> 
+    <br><br>
+
+    <!-- video -->
+
+    <video controls width="500">
+        <source src="quran.mp4" type="video/mp4">
+    </video>
+    <br><br>
+
+    <!-- iframe -->
+
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/iN38duSwoK0" allowfullscreen></iframe>
+    <br><br>
+
+    <!-- datalist auto completion -->
+
+    <label for="country">My Country</label><br>
+    <input type="text" list="country_name" id="country">
+
+    <datalist id="country_name">
+        <option value="Albania"></option>
+        <option value="Alzeria"></option>
+        <option value="Armenia"></option>
+        <option value="Afghanistan"></option>
+        <option value="Azarbaizan"></option>
+        <option value="Australia"></option>
+        <option value="Austria"></option>
+    </datalist>
+
+    <!-- html emojis -->
+
+    <p>
+        &#128509;
+        &#128510;
+        &#128511;
+        &#128512;
+        &#128513;
+        &#128514;
+        &#128515;
+        &#128516;
+        &#128517;
+        &#128518;
+        &#128519;
+        &#128520;
+    </p>
 
 </body>
 </html>

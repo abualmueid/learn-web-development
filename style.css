@@ -1,0 +1,95 @@
+h1 {
+    color: rgb(1, 105, 70);        
+}
+
+p {
+    color: blueviolet;
+}
+
+h2 {
+    color: blue;
+}
+
+body {
+    /* background-color: bisque; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwCymFsoaPMYS1jHOKRRQhtX3reE5J6jq5PA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-radius: 90px 1px 90px 1px;
+    background-color: rgb(132, 201, 20);
+    cursor: pointer;
+}
+
+.box-2, .box-3{
+    background-color: azure;
+}
+
+.box-2 p {
+    background-color: rgb(188, 131, 241);
+    display: block;
+}
+
+.box-3 p {
+    background-color: rgb(188, 131, 241);
+    display: inline;
+}
+
+.box-4, .box-5 {
+    background-color: brown;
+}
+
+.box-4 p {
+    /* margin-top: 10px; */
+    background-color: rgb(188, 131, 241);
+    display: inline-block;
+}
+
+.box-5 p {
+    background-color: rgb(188, 131, 241);
+    display: none;
+}
+
+.box-6, .box-7 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(2, 115, 115);
+}
+
+.box-6 {
+    float: left;
+}
+
+/* .box-7 {
+    float: right;
+    overflow: hidden;
+} */
+
+.para {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    background-color: rgb(147, 201, 249) !important;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgb(104, 72, 170);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(74, 167, 248) !important;
+}
+

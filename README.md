@@ -1,1 +1,1 @@
-This branch will mainly consist of practice files for learning html.
+This branch will mainly consist of practice files for learning css.

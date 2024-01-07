@@ -93,3 +93,70 @@ body {
     background-color: rgb(74, 167, 248) !important;
 }
 
+.para-2 {
+    margin-top: 50px;
+    line-height: 200%;
+    width: 500px;
+    height: 300px;
+    overflow: auto;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
+}
+
+.box-8 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(49, 39, 201);
+    position: relative;
+    /* top: 50px; */
+}
+
+.text {
+    text-decoration: underline overline dashed;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+.p1, .p2 {
+    width: 200px;
+    border: 1px solid rgb(4, 81, 81);
+}
+
+.p2 {
+    word-wrap: break-word;
+}
+
+.my-div {
+    background-color: rgb(212, 89, 89);
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center */
+}
+
+.my-div div {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(68, 98, 147);
+}
+
+.image img{
+    width: 200px;
+    height: 200px;
+    filter: blur(1px) brightness(120%) opacity(50%) saturate(10);
+}
+
+:root {
+    --myFont: 36px;
+    --myColor: rgb(209, 202, 9);
+}
+
+.my-text {
+    font-size: var(--myFont);
+    color: var(--myColor);
+}
+
+
+

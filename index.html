@@ -29,7 +29,7 @@
         document.write(person.name);
         document.write("<br>");
 
-        /*** conditional ***/ 
+        /*** Conditional ***/ 
 
         var mark = 10;
 
@@ -64,8 +64,15 @@
         document.write( message );
         document.write( "<br>" );
 
+        /*** For Loop ***/
 
+        for( var i = 0; i < 10; i++ ) {
+            if ( i === 5 || i === 9 ) {
+                continue;   
+            }
 
+            document.write( i + "<button>Click me</button>" + "<br>");
+        }
 
 
 

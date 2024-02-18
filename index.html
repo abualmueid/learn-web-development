@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS</title>
+</head>
+<body>
+
+    <h1>Javascript is really awesome!</h1>
+
+    <script>
+        document.write("Hello World<br>"); // '\n' for line break doesn't work in html rendering
+
+        /*** Array ***/
+
+        var country = ['Bangladesh', 'Japan', 'India'];
+        document.write(country); 
+        document.write("<br>");
+
+        /*** Object ***/
+
+        var person = {
+            name: "Abu Al Mueid",
+            age: 29,
+            phone: "01631xxxxxxx"
+        };
+
+        document.write(person.name);
+        document.write("<br>");
+
+        /*** conditional ***/ 
+
+        var mark = 10;
+
+        if ( mark >= 80 ) {
+            document.write("First Class");
+        } else if ( mark >= 60 ) {
+            document.write("Second Class");
+        } else if ( mark >= 40) {
+            document.write("Passed");
+        } else {
+            document.write("Failed");
+        }
+
+        document.write("<br>");
+
+        // Switch Case 
+
+        var mark = 85;
+        var message;
+
+        switch( true ) {
+            case mark >= 80:
+                message = "First Class";
+                break;
+            case mark >= 60: 
+                message = "Second Class";
+                break;
+            default:
+                message = "Failed";
+        }
+
+        document.write( message );
+        document.write( "<br>" );
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

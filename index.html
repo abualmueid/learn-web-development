@@ -74,6 +74,18 @@
             document.write( i + "<button>Click me</button>" + "<br>");
         }
 
+        /*** For Loop over Array ***/
+
+        var fruits = ['Apple', 'Banana'];
+
+        for(var item in fruits) {
+            document.write( fruits[item] + "<br>" );
+        }
+
+        for( var i = 0; i < fruits.length; i++ )  {
+            document.write( fruits[i] + "<br>" );
+        }
+
         /*** Function ***/
 
         function addNumber( n1, n2 ) { 
@@ -82,6 +94,10 @@
 
         document.write( "Sum = " + addNumber( 2, 7 ) );
         document.write( "<br>" );
+
+        
+
+
 
 
 

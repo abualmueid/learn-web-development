@@ -11,6 +11,14 @@
         margin-right: 8px;
     }
 
+    .subscribe-btn:hover {
+        opacity: .8;
+    }
+
+    .subscribe-btn:active {
+        background-color: blue;
+    }
+
     .join-btn {
         color: rgb(3, 102, 168);
         border: 1px solid rgb(3, 102, 168);
@@ -19,6 +27,13 @@
         height: 36px;
         text-transform: uppercase;
         cursor: pointer;
+        transition: background-color .5s, color .5s;
+    }
+
+    .join-btn:hover {
+        color: white;
+        background-color: rgb(3, 102, 168);
+        
     }
 
     .tweet-btn {
@@ -32,6 +47,10 @@
         font-weight: bold;
         font-size: 15px;
         cursor: pointer;
+    }
+
+    .tweet-btn:hover {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
     }
 </style>
 

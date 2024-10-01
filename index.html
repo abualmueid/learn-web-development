@@ -3,106 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn JS</title>
+    <title>Learning Javascript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam beatae voluptas cumque magni laborum, ad provident adipisci neque, facilis veritatis necessitatibus? Corporis eveniet sequi alias exercitationem perspiciatis, velit atque voluptates!</p>
 
-    <h1>Javascript is really awesome!</h1>
-
-    <script>
-        document.write("Hello World<br>"); // '\n' for line break doesn't work in html rendering
-
-        /*** Array ***/
-
-        var country = ['Bangladesh', 'Japan', 'India'];
-        document.write(country); 
-        document.write("<br>");
-
-        /*** Object ***/
-
-        var person = {
-            name: "Abu Al Mueid",
-            age: 29,
-            phone: "01631xxxxxxx"
-        };
-
-        document.write(person.name);
-        document.write("<br>");
-
-        /*** Conditional ***/ 
-
-        var mark = 10;
-
-        if ( mark >= 80 ) {
-            document.write("First Class");
-        } else if ( mark >= 60 ) {
-            document.write("Second Class");
-        } else if ( mark >= 40) {
-            document.write("Passed");
-        } else {
-            document.write("Failed");
-        }
-
-        document.write("<br>");
-
-        // Switch Case 
-
-        var mark = 85;
-        var message;
-
-        switch( true ) {
-            case mark >= 80:
-                message = "First Class";
-                break;
-            case mark >= 60: 
-                message = "Second Class";
-                break;
-            default:
-                message = "Failed";
-        }
-
-        document.write( message );
-        document.write( "<br>" );
-
-        /*** For Loop ***/
-
-        for( var i = 0; i < 10; i++ ) {
-            if ( i === 5 || i === 9 ) {
-                continue;   
-            }
-
-            document.write( i + "<button>Click me</button>" + "<br>");
-        }
-
-        /*** For Loop over Array ***/
-
-        var fruits = ['Apple', 'Banana'];
-
-        for(var item in fruits) {
-            document.write( fruits[item] + "<br>" );
-        }
-
-        for( var i = 0; i < fruits.length; i++ )  {
-            document.write( fruits[i] + "<br>" );
-        }
-
-        /*** Function ***/
-
-        function addNumber( n1, n2 ) { 
-            return n1 + n2;
-        }
-
-        document.write( "Sum = " + addNumber( 2, 7 ) );
-        document.write( "<br>" );
-
-        
-
-
-
-
-
-
-
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
